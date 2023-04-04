@@ -1,0 +1,51 @@
+/*
+Theme Name: Portfolio Theme
+Author: Anna Lena Fawer
+Version: 1.0.0
+*/
+body{
+    color: azure;
+    background: rgb(219,3,126);
+    background: linear-gradient(32deg, rgba(219,3,126,1) 0%, rgba(0,0,0,1) 17%, rgba(0,0,0,1) 80%, rgba(219,3,126,1) 100%);
+}
+main{
+    margin: 0 260px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.wp-image-36 .size-full img{
+    width:475px ;
+    height:475px ;
+}
+.wp-block-media-text__media img{
+  width:475px ;
+  height:475px ;
+  object-fit: cover;
+}
+.wpcf7-form-control-wrap input{
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 25vw;
+}
+.wpcf7-form-control-wrap textarea{
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    width: 25vw;
+}

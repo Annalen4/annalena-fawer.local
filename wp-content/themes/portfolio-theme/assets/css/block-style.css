@@ -1,0 +1,23 @@
+.h1{
+    display: block;
+    font-size: 120pt;
+    font-family: Yeseva One;
+    font-weight: 200;
+}
+h1{
+    display: none;
+}
+.wp-block-heading{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: Yeseva One;
+}
+p{
+    font-family: Yeseva One;
+}
+a{
+    font-family: Yeseva One;
+}
