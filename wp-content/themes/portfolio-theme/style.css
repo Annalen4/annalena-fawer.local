@@ -27,6 +27,10 @@ ul li{
     justify-content: flex-end;
 }
 
+.wp-image-13{
+    width: 265px;
+}
+
 
 .wp-image-36 .size-full img{
     width:475px ;
@@ -48,4 +52,9 @@ ul li{
     margin: 20px 0;
     border-radius: 8px;
     width: 25vw;
+}
+
+
+.uebermich{
+    margin: 20px;
 }

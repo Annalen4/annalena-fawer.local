@@ -1,8 +1,9 @@
+/*Typografie */
 .h1{
     display: block;
-    font-size: 120pt;
+    font-size: 119pt;
     font-family: Yeseva One;
-    font-weight: 200;
+    font-weight: 300;
 }
 h1{
     display: none;
@@ -11,13 +12,30 @@ h1{
     margin: 0;
     margin-bottom: 20px;
 }
-
 h2{
     font-family: Yeseva One;
+    font-weight: 200;
 }
 p{
-    font-family: Yeseva One;
+    font-family: Roboto;
+    font-size: 18pt;
 }
 a{
-    font-family: Yeseva One;
+    font-family: Roboto;
+}
+
+/* buttons*/
+
+.wp-block-button a{
+    background-color:rgba(0, 0, 0, 0);
+    border: 2px solid azure;
+    border-radius: 8px ;
+}
+.wpcf7-submit{
+    background-color:rgba(0, 0, 0, 0);
+    border: 2px solid azure;
+    border-radius: 8px ;
+    padding: calc(.667em + 2px) calc(1.333em + 2px);
+    font-size: 1.125em;
+    color: azure;
 }
