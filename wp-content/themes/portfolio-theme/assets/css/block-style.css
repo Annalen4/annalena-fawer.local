@@ -17,6 +17,13 @@ h2{
     font-family: Yeseva One;
     font-weight: 200;
 }
+h3{
+    font-family: Yeseva One; 
+    margin-left: 18px;
+    font-weight: 100;
+    font-size: 25pt;
+
+}
 p{
     font-family: Roboto;
     font-size: 18pt;
@@ -24,8 +31,18 @@ p{
 a{
     font-family: Roboto;
 }
+time{
+    font-family: Roboto;
+    margin-left: 18px;
+}
 
 /* buttons*/
+/* projekte*/
+.wp_button_projekt{
+    margin-left: 7%;
+}
+
+/*andere */
 
 .wp-block-button a{
     background-color:rgba(0, 0, 0, 0);

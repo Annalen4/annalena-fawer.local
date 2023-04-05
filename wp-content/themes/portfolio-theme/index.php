@@ -2,10 +2,13 @@
 
 <main>
     <h1 class="h1">Projekte</h1>
-    <section>
+    <section class="Projekte">
         <?php
         while(have_posts()){ 
             the_post();?>
+            <div class="Projekt">
+
+            <a href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
 
             <a href="<?php the_permalink(); ?>"> <h3><?php the_title();?></h3></a>
             <time datetime="<?php the_time('Y-m-d' );?>"><?php the_time('d.m.Y');?> </time>
@@ -21,10 +24,15 @@
                 }?>
 
             </ul>
-            <a href="<? the_permalink();?>"><?php the_post_thumbnail(); ?></a>
+            
+
+            <div class="wp-block-button">
+                <a href="<?php the_permalink();?>"class="wp-block-button__link wp_button_projekt">Mehr zum Projekt</a>
+            </div>
+            </div>
            
             <?php 
         }?>
     </section>
 </main>
-<?php get_footer(); //footer einbinden ?>
+<?php get_footer(); //footer einbinden ?><
