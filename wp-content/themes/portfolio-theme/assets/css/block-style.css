@@ -61,3 +61,26 @@ time{
 .wp-block-cover__inner-container h1{
     color: azure;
 }
+
+/**********RESPONSIV**********/
+@media screen and (max-width:728px) {
+    /* TYPO*/
+    .h1{
+        font-size: 50pt;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 15pt;
+        font-weight: 200;
+    }
+    h3{
+        margin-left: 12px;
+        font-size: 15pt;
+    }
+    p{
+        font-size: 9pt;
+    }
+    
+
+}

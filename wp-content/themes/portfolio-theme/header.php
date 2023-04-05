@@ -8,12 +8,24 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<?php
-wp_nav_menu( 
-    [
-    'theme_location' => 'primary',
-    'container' => 'ul',
-    'container_class' => 'main-nav',
-    ]
-);
+    <header id="main_menu">
+        <div  class="navWeb">
+            <div class="iconburger">
+                <i data-feather="align-justify"></i>
+            </div>
+            <div id="nav">
+                <nav class="burgermenu">
+
+                    <?php
+                    wp_nav_menu( 
+                    [
+                    'theme_location' => 'primary',
+                    'container' => 'ul',
+                    'container_class' => 'main-nav',
+                    ]
+                    );?>
+                </nav>
+            </div>
+        </div>
+    </header>
 

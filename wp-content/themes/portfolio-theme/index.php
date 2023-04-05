@@ -2,6 +2,14 @@
 
 <main>
     <h1 class="h1">Projekte</h1>
+    <nav>
+
+    <ul class="categories">
+     <?php wp_list_categories(); ?>
+
+    </ul>
+
+</nav>
     <section class="Projekte">
         <?php
         while(have_posts()){ 
@@ -15,10 +23,10 @@
             <ul>
                 <?php 
                 $categories = get_the_category();
-                foreach($categories as $category){
+                foreach($categories as $category);{
                 ?>
 
-                <li><a href="<?php get_category_link($category->term_id);?>"><?php $category->name; ?></a></li>
+                <li><a href="<?php get_category_link($category->term_id); ?>"> <?php echo $category ->name;?></a></li>
 
                 <?php 
                 }?>

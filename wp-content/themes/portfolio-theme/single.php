@@ -3,8 +3,9 @@
 <main>
     <?php the_post(); ?>
 
+
     <article>
-    <h1><?php the_title(); ?></h1>
+    <?php the_content() ;?> 
     <?php 
                 $categories = get_the_category();
                 foreach($categories as $category){
@@ -14,7 +15,7 @@
 
                 <?php 
                 }?>
-    <?php the_content() ;?>    
+       
 </article>
 
 </main>

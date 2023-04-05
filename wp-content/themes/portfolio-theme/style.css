@@ -36,6 +36,19 @@ ul li{
     border-bottom: 0.5px azure solid ;
     margin-bottom: 20px;
 }
+.burgermenu nav{
+    display: flex;        
+}
+.navWeb div{
+    width: 100vw;
+}
+nav{
+    display: none;
+    width: 100vw;
+}
+.iconburger{
+    color:azure;
+}
 /* Home bild */
 .wp-image-13{
     width: 265px;
@@ -103,10 +116,80 @@ form{
 .Projekt{
     border: solid 1px azure ;
     width: 20vw;
+    height: auto;
     margin: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 .Projekte{
     display: flex;
     flex-wrap: wrap;
+}
+/**********RESPONSIV**********/
+@media screen and (max-width:728px) {
+    /* Home*/
+    main{
+        margin: 0 25px;
+    }
+    /* Home neuste Projekte*/
+    .wp-block-latest-posts.is-grid{
+    flex-wrap: wrap;
+    }
+    .wp-block-latest-posts__list> li{
+    margin: 7px;
+    padding-bottom: 15px;
+    }
+.attachment-thumbnail, .size-thumbnail, .wp-post-image, img{
+    width: 100%;
+}
+
+    /* kontaktformular */
+    .wpcf7-form-control-wrap input{
+        padding: 15px;
+        margin: 2.5px 0;
+        width: 50vw;
+    }
+    .wpcf7-form-control-wrap textarea{
+        padding: 15px;
+        margin: 10px 0;
+        width: 50vw;
+    }
+    form{
+        margin: 10px;
+        margin-top: 10px;
+    }
+    .wp-block-media-text{
+        margin-bottom: 70px;
+    }
+
+    /*Burger menu versuchen */
+    .iconburger{
+        display: none;
+    }
+    nav{
+        display: inline-block;
+        margin-left: auto ;
+    }
+    nav a{
+        text-decoration: none;
+        padding: 20px 20px ;
+    }
+    .mobilNav{
+        display: inline-block;
+        align-items:center;
+    }
+    .burgermenu nav{
+        display: inline-block;
+        margin-block-end:0;
+    }
+    #nav{
+        display: inline-flex;
+    }
+    .navWeb{
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    
 }
