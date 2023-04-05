@@ -1,6 +1,6 @@
 /*Typografie */
 .h1{
-    display: block;
+    display: flex;
     font-size: 119pt;
     font-family: Yeseva One;
     font-weight: 300;
@@ -13,6 +13,7 @@ h1{
     margin-bottom: 20px;
 }
 h2{
+    font-size: 35pt;
     font-family: Yeseva One;
     font-weight: 200;
 }
@@ -37,5 +38,9 @@ a{
     border-radius: 8px ;
     padding: calc(.667em + 2px) calc(1.333em + 2px);
     font-size: 1.125em;
+    color: azure;
+}
+/* cover*/
+.wp-block-cover__inner-container h1{
     color: azure;
 }

@@ -5,7 +5,15 @@
 
     <article>
     <h1><?php the_title(); ?></h1>
-    <h4><?php the_category();?></h4>
+    <?php 
+                $categories = get_the_category();
+                foreach($categories as $category){
+                ?>
+
+                <li><a href="<?php get_category_link($category->term_id);?>"><?php $category->name; ?></a></li>
+
+                <?php 
+                }?>
     <?php the_content() ;?>    
 </article>
 
