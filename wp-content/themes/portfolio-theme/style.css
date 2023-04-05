@@ -138,9 +138,14 @@ form{
     margin: 7px;
     padding-bottom: 15px;
     }
-.attachment-thumbnail, .size-thumbnail, .wp-post-image, img{
+    .attachment-thumbnail, .size-thumbnail, .wp-post-image, img{
     width: 100%;
-}
+    }
+    /*uebermich */
+    .wp-image-13{
+        width: 220px;
+        height: auto;
+    }
 
     /* kontaktformular */
     .wpcf7-form-control-wrap input{
